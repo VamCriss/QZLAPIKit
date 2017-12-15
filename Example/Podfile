@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QZLAPIKit_Example' do
+  pod 'QZLAPIKit', :path => '../'
+
+  target 'QZLAPIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
