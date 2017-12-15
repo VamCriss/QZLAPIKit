@@ -12,8 +12,6 @@
 #import "NSError+NXAdd.h"
 #import "NetworkHelper.h"
 #import "APIResponseStructureConfig.h"
-#import "UMessage.h"
-#import "NXLoginViewController.h"
 
 //NSString * const APIErrorTipKey = @"APIErrorTipKey";
 
@@ -71,8 +69,7 @@
             }
         } else {
             if ([data[self.config.resCode] hasPrefix:@"11"]) {
-                [NXUserInfoModel logout];
-                 [UIApplication sharedApplication].keyWindow.rootViewController = [[NXLoginViewController alloc]init];
+                NSLog(@"another deal");
             }
             [self errorCallBack:error errorCode:data[self.config.resCode] errorMsg:data[self.config.message]];
         }

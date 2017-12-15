@@ -10,6 +10,14 @@
 #endif
 #endif
 
+#import "APIConnectTool.h"
+#import "APIRequest.h"
+#import "APIRequestProtocol.h"
+#import "APIResponseProtocol.h"
+#import "APIResponseStructureConfig.h"
+#import "DBCacheManager.h"
+#import "NetworkHelper.h"
+#import "NSError+NXAdd.h"
 
 FOUNDATION_EXPORT double QZLAPIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char QZLAPIKitVersionString[];
