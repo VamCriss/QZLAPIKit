@@ -1,0 +1,22 @@
+{
+  "name": "QZLAPIKit",
+  "version": "0.1.0",
+  "summary": "A short description of QZLAPIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ericluo0114@hotmail.com/QZLAPIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ericluo0114@hotmail.com": "luohao@icourt.cc"
+  },
+  "source": {
+    "git": "https://github.com/ericluo0114@hotmail.com/QZLAPIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QZLAPIKit/Classes/**/*"
+}
